@@ -7,7 +7,7 @@ import * as tf from "@tensorflow/tfjs";
 import Webcam from "react-webcam";
 import "./App.css";
 // 2. TODO - Import drawing utility here
-// e.g. import { drawRect } from "./utilities";
+import { drawRect } from "./utilities";
 import * as cocossd from "@tensorflow-models/coco-ssd"
 function App() {
   const webcamRef = useRef(null);
@@ -52,7 +52,7 @@ function App() {
       const ctx = canvasRef.current.getContext("2d");
 
       // 5. TODO - Update drawing utility
-      // drawSomething(obj, ctx)  
+      drawRect(obj, ctx)  
     }
   };
 
