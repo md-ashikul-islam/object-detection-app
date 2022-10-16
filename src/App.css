@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.detection-window {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,6 +22,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.heading{
+  background-color: #282c34;
+  padding-top: 0.2px;
+  padding-bottom: 0.2px;
+  color: aliceblue;
+
 }
 
 .App-link {

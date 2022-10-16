@@ -60,7 +60,12 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="heading">
+      <h1>Object Detection App</h1>
+      <h3>Ashik || Maymuna || Sazzad || Faiaz || Farhan</h3>
+      </div>
+      <div className="detection-window">
+        
         <Webcam
           ref={webcamRef}
           muted={true} 
@@ -91,7 +96,7 @@ function App() {
             height: 480,
           }}
         />
-      </header>
+      </div>
     </div>
   );
 }
