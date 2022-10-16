@@ -2,7 +2,10 @@
   "name": "handpose",
   "version": "0.1.0",
   "private": true,
-  "engines":{"node":"12.22.9"},
+  "engines":{
+    "node":"12.22.9",
+    "npm" : "8.5.1"
+  },
   "dependencies": {
     "@tensorflow-models/coco-ssd": "^2.1.0",
     "@tensorflow/tfjs": "^2.4.0",
